@@ -32,4 +32,4 @@ Practice customizing dashboards in the Azure portal to monitor and organize reso
    ![Cloning into Microsoft Entra Admin Dashboard](Screenshots/05-Cloning-into-Microsoft-Entra-Admin-Dashboard.png)
 
 ## Notes / Gotchas
-- Cloning dashboards is useful when creating variations for different roles (e.g., customers vs. admins).  
+- Cloning dashboards is useful when creating variations for different roles (e.g., customers vs. admins).
