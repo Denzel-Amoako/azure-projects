@@ -33,43 +33,43 @@ Created a new resource group using `New-AzResourceGroup`.
 
 ### 5. Resource Group Provisioned
 Confirmed the new resource group provisioned successfully.  
-![Provisioning Succeeded](06-provisioning-succeeded.png)
+![Provisioning Succeeded](05-provisioning-succeeded.png)
 
 ---
 
 ### 6. Azure Portal Verification
 Checked the deployment in the Azure Portal – resource group visible.  
-![Azure Portal Deployment](07-azure-portal-deployment.png)
+![Azure Portal Deployment](06-azure-portal-deployment.png)
 
 ---
 
 ### 7. Edit ARM Template
 Added a Storage Account resource definition to the ARM template.  
-![Edit Template in VS Code](08-edit-vs-code.png)
+![Edit Template in VS Code](07-edit-vs-code.png)
 
 ---
 
 ### 8. Update SKU
 Modified SKU from **Premium_LRS** to **Standard_LRS** to stay within free tier.  
-![Update SKU](09-vs-code.png)
+![Update SKU](08-vs-code.png)
 
 ---
 
 ### 9. Deploy Template Again
 Redeployed the updated template, resulting in **two deployments** (blank + storage).  
-![Both Deployments](10-both-deployments.png)
+![Both Deployments](09-both-deployments.png)
 
 ---
 
 ### 10. Deployment Success – Storage
 Verified the second deployment (`addstorage`) completed successfully.  
-![Add Storage Deployment](11-add-storage-deployment.png)
+![Add Storage Deployment](10-add-storage-deployment.png)
 
 ---
 
 ### 11. Storage Account Resource
 Confirmed the storage account resource was created inside the resource group.  
-![Storage Account Resource](12-storage-resource.png)
+![Storage Account Resource](11-storage-resource.png)
 
 ---
 
@@ -95,4 +95,3 @@ To avoid any charges, delete the resource group when done:
 
 ```powershell
 Remove-AzResourceGroup -Name MyARMResourceGroup -Force
-
